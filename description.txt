@@ -1,0 +1,13 @@
+Flexbox:
+The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. 
+When we describe flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column. 
+There are two axes of flexbox.
+1.The main axis:
+The main axis is defined by "flex-direction", which has four possible values: row, row-reverse, column, column-reverse. Should you choose row or row-reverse, your main axis will run along the row in the inline direction.
+Choose column or column-reverse and your main axis will run from the top of the page to the bottom — in the block directio
+
+2. The cross axis:
+The cross axis runs perpendicular to the main axis, therefore if your flex-direction (main axis) is set to row or row-reverse the cross axis runs down the columns.
+If flex-direction is set to row then the cross axis runs in the block direction.
+If your main axis is column or column-reverse then the cross axis runs along the rows.
+If flex-direction is set to column then the cross axis runs in the inline direction.
