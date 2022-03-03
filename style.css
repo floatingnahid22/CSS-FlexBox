@@ -8,10 +8,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.flex-container {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    /* Always is on the main axis */
+    justify-content: space-between;
+    /* Always is on the cross axis */
+    align-items: center;
+}
+
 .item {
     width: 100px;
     height: 100px;
     background: #254de4;
     color: #fff;
     margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-of-type(1) {
+}
+
+.item:nth-of-type(2) {
+}
+
+.item:nth-of-type(3) {
 }

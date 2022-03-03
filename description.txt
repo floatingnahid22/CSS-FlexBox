@@ -6,3 +6,6 @@ Flex Containers and items:
 The flex container is the element that holds flex items. Flex items 
 are direct children of flex containers. Acontainer is created with 
 "display:flex"
+
+justify-content: Always is on the main axis
+align-items: Always is on the cross axis
